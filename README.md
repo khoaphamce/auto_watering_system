@@ -1,2 +1,1 @@
-# auto_watering_system
-Auto watering system on Arduino
+# Auto watering system using capacitive humidity sensor
