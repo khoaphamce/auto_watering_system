@@ -1,0 +1,7 @@
+/.vscode
+report/*.aux
+report/*.fdc_latexmk
+report/*.fls
+report/*.aux
+report/*.log
+report/*.gz

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.12)  8 NOV 2021 23:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.12)  18 NOV 2021 10:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/phamk/BKU_Lessons/Elec_circuit/Assignment/report/main.tex
-(c:/Users/phamk/BKU_Lessons/Elec_circuit/Assignment/report/main.tex
+**c:/Users/phamk/BKU_Lessons/Elec_circuit/auto_watering_system/report/main.tex
+(c:/Users/phamk/BKU_Lessons/Elec_circuit/auto_watering_system/report/main.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -307,42 +307,56 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks26
+\float@box=\box54
+\@float@everytoks=\toks27
+\@floatcapt=\box55
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count269
-\l__pdf_internal_box=\box54
-) (./main.aux)
+\l__color_backend_stack_int=\count270
+\l__pdf_internal_box=\box56
+) (./main.aux
+
+LaTeX Warning: Label `fig:schematic' multiply defined.
+
+
+LaTeX Warning: Label `fig:schematic' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
+\scratchcounter=\count271
 \scratchdimen=\dimen152
-\scratchbox=\box55
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count273
+\scratchbox=\box57
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count274
 \MPscratchDim=\dimen153
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks29
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -352,29 +366,183 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <./images/Logo_BK.png, id=1, 291.0072pt x 297.7524pt>
 File: ./images/Logo_BK.png Graphic file (type png)
 <use ./images/Logo_BK.png>
-Package pdftex.def Info: ./images/Logo_BK.png  used on input line 29.
+Package pdftex.def Info: ./images/Logo_BK.png  used on input line 30.
 (pdftex.def)             Requested size: 174.60567pt x 178.6528pt.
  [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/Logo_BK.png>]
-Overfull \hbox (67.32413pt too wide) in paragraph at lines 39--49
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 37--53
+
  []
 
-[2] [3] (./main.aux) ) 
+[2]
+<./images/OLED.jpg, id=15, 192.72pt x 128.3997pt>
+File: ./images/OLED.jpg Graphic file (type jpg)
+<use ./images/OLED.jpg>
+Package pdftex.def Info: ./images/OLED.jpg  used on input line 62.
+(pdftex.def)             Requested size: 192.71951pt x 128.39938pt.
+<./images/arduino uno.png, id=16, 452.28975pt x 317.38576pt>
+File: ./images/arduino uno.png Graphic file (type png)
+<use ./images/arduino uno.png>
+Package pdftex.def Info: ./images/arduino uno.png  used on input line 71.
+(pdftex.def)             Requested size: 271.37595pt x 190.43292pt.
+ [3 <./images/OLED.jpg> <./images/arduino uno.png>]
+<./images/arduino ide.png, id=22, 1156.32pt x 582.37575pt>
+File: ./images/arduino ide.png Graphic file (type png)
+<use ./images/arduino ide.png>
+Package pdftex.def Info: ./images/arduino ide.png  used on input line 76.
+(pdftex.def)             Requested size: 346.89868pt x 174.71407pt.
+<./images/relay.jpg, id=23, 1868.9825pt x 518.93875pt>
+File: ./images/relay.jpg Graphic file (type jpg)
+<use ./images/relay.jpg>
+Package pdftex.def Info: ./images/relay.jpg  used on input line 84.
+(pdftex.def)             Requested size: 373.78989pt x 103.7859pt.
+
+Overfull \hbox (13.16458pt too wide) in paragraph at lines 84--85
+ [] 
+ []
+
+<./images/relay_schematic.png, id=24, 83.47185pt x 71.66776pt>
+File: ./images/relay_schematic.png Graphic file (type png)
+<use ./images/relay_schematic.png>
+Package pdftex.def Info: ./images/relay_schematic.png  used on input line 90.
+(pdftex.def)             Requested size: 250.4149pt x 215.00272pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images/joystick.png, id=25, 498.663pt x 489.62926pt>
+File: ./images/joystick.png Graphic file (type png)
+<use ./images/joystick.png>
+Package pdftex.def Info: ./images/joystick.png  used on input line 102.
+(pdftex.def)             Requested size: 124.66544pt x 122.40701pt.
+[4 <./images/arduino ide.png> <./images/relay.jpg>]
+<./images/joystick_schematic.jpg, id=30, 339.51843pt x 294.34969pt>
+File: ./images/joystick_schematic.jpg Graphic file (type jpg)
+<use ./images/joystick_schematic.jpg>
+Package pdftex.def Info: ./images/joystick_schematic.jpg  used on input line 107.
+(pdftex.def)             Requested size: 254.63818pt x 220.7617pt.
+ [5 <./images/relay_schematic.png> <./images/joystick.png>]
+<./images/ac-dc.png, id=36, 401.70074pt x 340.8735pt>
+File: ./images/ac-dc.png Graphic file (type png)
+<use ./images/ac-dc.png>
+Package pdftex.def Info: ./images/ac-dc.png  used on input line 117.
+(pdftex.def)             Requested size: 200.84987pt x 170.43633pt.
+ [6 <./images/joystick_schematic.jpg> <./images/ac-dc.png>]
+<./images/hum_sensor.png, id=42, 429.40425pt x 333.04425pt>
+File: ./images/hum_sensor.png Graphic file (type png)
+<use ./images/hum_sensor.png>
+Package pdftex.def Info: ./images/hum_sensor.png  used on input line 131.
+(pdftex.def)             Requested size: 214.70158pt x 166.52171pt.
+ [7 <./images/hum_sensor.png>]
+<./images/breadboard.png, id=48, 650.05359pt x 560.4689pt>
+File: ./images/breadboard.png Graphic file (type png)
+<use ./images/breadboard.png>
+Package pdftex.def Info: ./images/breadboard.png  used on input line 141.
+(pdftex.def)             Requested size: 398.33858pt x 343.45055pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 141--142
+ [][] 
+ []
+
+<./images/flow chart.png, id=49, 718.685pt x 851.18pt>
+File: ./images/flow chart.png Graphic file (type png)
+<use ./images/flow chart.png>
+Package pdftex.def Info: ./images/flow chart.png  used on input line 147.
+(pdftex.def)             Requested size: 359.34161pt x 425.58894pt.
+[8 <./images/breadboard.png>] [9 <./images/flow chart.png>]
+<./images/include_lib.png, id=58, 380.42125pt x 42.1575pt>
+File: ./images/include_lib.png Graphic file (type png)
+<use ./images/include_lib.png>
+Package pdftex.def Info: ./images/include_lib.png  used on input line 153.
+(pdftex.def)             Requested size: 398.33858pt x 44.14444pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 153--154
+ [][] 
+ []
+
+<./images/assign.png, id=59, 284.06125pt x 201.75375pt>
+File: ./images/assign.png Graphic file (type png)
+<use ./images/assign.png>
+Package pdftex.def Info: ./images/assign.png  used on input line 162.
+(pdftex.def)             Requested size: 398.33858pt x 282.94588pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 162--163
+ [][] 
+ []
+
+<./images/setup.png, id=60, 402.50375pt x 221.82875pt>
+File: ./images/setup.png Graphic file (type png)
+<use ./images/setup.png>
+Package pdftex.def Info: ./images/setup.png  used on input line 171.
+(pdftex.def)             Requested size: 398.33858pt x 219.53326pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 171--172
+ [][] 
+ []
+
+[10 <./images/include_lib.png> <./images/assign.png>]
+<./images/OLED_print.png, id=66, 419.5675pt x 261.97874pt>
+File: ./images/OLED_print.png Graphic file (type png)
+<use ./images/OLED_print.png>
+Package pdftex.def Info: ./images/OLED_print.png  used on input line 180.
+(pdftex.def)             Requested size: 419.56647pt x 261.9781pt.
+
+Overfull \hbox (29.56647pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
+
+[11 <./images/setup.png>]
+Overfull \hbox (67.32413pt too wide) in paragraph at lines 190--200
+ [][] 
+ []
+
+[12 <./images/OLED_print.png>] [13] [14]
+<images/day_roi.jpg, id=82, 3035.34pt x 1457.445pt>
+File: images/day_roi.jpg Graphic file (type jpg)
+<use images/day_roi.jpg>
+Package pdftex.def Info: images/day_roi.jpg  used on input line 245.
+(pdftex.def)             Requested size: 398.33858pt x 191.2536pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 245--246
+ [][] 
+ []
+
+<images/daydien.png, id=83, 501.875pt x 231.86626pt>
+File: images/daydien.png Graphic file (type png)
+<use images/daydien.png>
+Package pdftex.def Info: images/daydien.png  used on input line 253.
+(pdftex.def)             Requested size: 398.33858pt x 184.04266pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 253--254
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./images/day_roi.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+
+ []
+
+[16 <./images/daydien.png>] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3271 strings out of 478599
- 42029 string characters out of 5858101
- 352168 words of memory out of 5000000
- 21125 multiletter control sequences out of 15000+600000
- 416843 words of font info for 53 fonts, out of 8000000 for 9000
+ 3467 strings out of 478599
+ 46042 string characters out of 5858101
+ 355674 words of memory out of 5000000
+ 21298 multiletter control sequences out of 15000+600000
+ 417180 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,16n,69p,653b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on main.pdf (3 pages, 120414 bytes).
+ 57i,16n,69p,663b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
+Output written on main.pdf (16 pages, 4462795 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
