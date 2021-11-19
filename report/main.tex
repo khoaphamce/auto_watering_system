@@ -133,6 +133,16 @@
 
                 \item Functionality: Determine humidity of dirt.
             \end{itemize}
+
+        \subsubsection{T89 power supply}
+            \begin{itemize}
+                \item Example of a T89 power supply:
+                \begin{center}
+                    \includegraphics[scale = 0.25]{./images/t89.png}
+                \end{center}
+
+                \item Functionality: Using 2 DC voltage regulator to convert input voltage into 5V and 3.3V.
+            \end{itemize}
     \newpage
     \subsection{Schematic of the circuit}
     After choosing the power supply, we did a mock schematic of the circuit with all the suitable parts we could find on the market.
@@ -182,7 +192,34 @@
         \label{fig:OLED_print}
     \end{figure}
     
-    We print "Do am: " at coordinate (0, 18) and int humPercent with '\%' at coordinate (65, 19). Similarly, we print "Tuoi: " at coordinate (0, 30) and int waterPercent with '\%' at coordinate (65, 32).
+    We print "Do am: " at coordinate (0, 18) and integer humPercent with '\%' at coordinate (65, 19). Similarly, we print "Tuoi: " at coordinate (0, 30) and integer waterPercent with '\%' at coordinate (65, 32).
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=14cm]{./images/main1.png}
+        \caption{First part of the main code}
+        \label{fig:main1}
+    \end{figure}
+    
+    We declare an integer y and assign it with the value of the y-axis of the joystick. Then we make an if-else-if statement that increases the watering level when we move the y-axis of the joystick within the range from 0 to 300 and the watering level is less than 100 or decreases the watering level when we move the y-axis of the joystick within the range from 700 to 1023 and the watering level is greater than 0.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=14cm]{./images/main2.png}
+        \caption{Second part of the main code}
+        \label{fig:main2}
+    \end{figure}
+    
+    We declare integer humVal and assign the reading from the humidity sensor to it. We then proceed to declare integer humPercent and map humVal to it on scale of 0 to 100. After that, we make an if-else statement which enables the red LED and the relay module and disable the green LED when humPercent is less than or equal to wateringLevel and vice-versa. We call the oledPrint(humPercent, wateringLevel) function to print the two integer variables on the display.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=14cm]{./images/main3.png}
+        \caption{Final part of the main code}
+        \label{fig:main3}
+    \end{figure}
+    
+    This means that the loop runs once every 200 milliseconds.
 
     \section{Experiment}
     \begin{table}[H]
@@ -203,23 +240,24 @@
         \subsection{List of electronic devices}
             \begin{table}[H]
                 \centering
-                \begin{tabular}{|l|l|l|}
-                    \hline
-                            Order & Components                            & Quantity\\ \hline
-                            1   & Full wave rectifier AC-DC 12VDC 450mA & 1        \\ \hline
-                            2   & Voltage source T89                    & 1        \\ \hline
-                            3   & Oled 0.91 Inch I2C                    & 1        \\ \hline
-                            4   & 5V water pump                         & 1        \\ \hline
-                            5   & Red led                               & 1        \\ \hline
-                            6   & Green led                             & 1        \\ \hline
-                            7   & Andruino UNO                          & 1        \\ \hline
-                            8   & Relay Module (5V-10A)                 & 1        \\ \hline
-                            9   & Siphon                                & 1        \\ \hline
-                            10  & Joystick                              & 1        \\ \hline
-                            11  & Breadbroad                            & 1        \\ \hline
-                            12  & Wires                                 & 25        \\ \hline
-                \end{tabular}
-            \end{table}
+                \begin{tabular}{|c|l|c|}
+\hline
+\multicolumn{1}{|l|}{STT} & Linh kiện                             & \multicolumn{1}{l|}{Số lượng} \\ \hline
+1                         & Full wave rectifier AC-DC 12VDC 450mA & 1                             \\ \hline
+2                         & Voltage source T89                    & 1                             \\ \hline
+3                         & Oled 0.91 Inch I2C                    & 1                             \\ \hline
+4                         & 5V water pump                         & 1                             \\ \hline
+5                         & Red led                               & 1                             \\ \hline
+6                         & Green led                             & 1                             \\ \hline
+7                         & Andruino UNO                          & 1                             \\ \hline
+8                         & Relay Module (5V-10A)                 & 1                             \\ \hline
+9                         & Siphon                                & 1                             \\ \hline
+10                        & Joystick                              & 1                             \\ \hline
+11                        & Breadbroad                            & 1                             \\ \hline
+12                        & Wires                                 & 25                            \\ \hline
+13                        & Humidity Sensor                       & 1                             \\ \hline
+\end{tabular}
+\end{table}
         \subsection{Process}
         \begin{itemize}
             \item We place all the electronic components on the plastic flat surface. 
@@ -229,6 +267,12 @@
             \item We connect 3v3 OUT of the voltage source to the relay module.
             \item We connect 5V OUT of the voltage source to the breadboard.
             \item We use red light when the water pump is running and green light when the water pump is not running.
+            \begin{figure}[!h]
+                           \centering
+                            \includegraphics[width=14cm]{images/full_mach_dien.jpg}
+                            \caption{The circuit}
+                            \label{fig:schematic}
+                    \end{figure}
         \end{itemize}
         \subsection{Advantages and disadvantages}
         \subsubsection{Advantages}
@@ -263,7 +307,7 @@
                 \item save as much water as possible.
                 \item require no human involvement (The circuit is based mainly on Arduino UNO and a soil moisture sensor).
             \end{itemize}     
-         If the moisture is lower than the default moisturizing (40\% for example), the green led is on, the pump will water the plant. Otherwise, the red led is on (which means the plant's humidity is enough) \\  \\  
+         If the moisture is lower than the default moisturizing (30\% for example), the green led is on, the pump will water the plant. Otherwise, the red led is on (which means the plant's humidity is enough) \\  \\  
          You can checkout our result more clearly in the live-demo.
         \subsection{Deficiency}
             This plant moisturing-and-watering device can only be used for such small area
